@@ -1,0 +1,46 @@
+.Post {
+    /* Dimensões */
+    width: 300px;
+    height: 650px;
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+    /* Estilo de borda */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* bordas arredondadas */
+
+    /* Sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Espaçamento externo */
+    margin: 20px;
+
+    /* Outros */
+    background-color: #fff; /* cor de fundo do card */
+    overflow: hidden; /* esconde o conteúdo que ultrapassa o tamanho do card */
+    transition: transform 0.2s; /* animação suave para hover */
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.imagem{
+    width: 1000px;
+    height: 600px;
+}
+
+.descricao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+.categoria{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: left;
+}
